@@ -99,6 +99,10 @@ border-color: #E0AA5A;
 }
 
 @media (max-width: 767px){
+    .cardBuffer {
+        margin-top: 15px;
+    }
+    
     .bg {
         padding-left: 5%;
         text-align: left;
