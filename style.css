@@ -19,28 +19,40 @@
     color: white;
 }
 
+/* Korencards styles */
+#koren {
+    padding-bottom: 30px;
+}
+
 /* Info row styles */
 
 .bg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 90px 90px;
     color: #FFFFFF;
-    padding: 90px 90px
-    ;
-}
-
-#rowChorix {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
-    background-size: cover;
+    padding-left: 50%;
+    text-align: right;
 }
 
 #rowRejoice {
-    background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background: url("http://rejoice.be/wp-content/uploads/2017/05/Rejoice2.jpg");
     background-size: cover;
+    text-align: left;
+ 
 }
 
+#rowChorix {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("http://chorix.be/wp-content/uploads/2017/02/IMG_0956_2.gif");
+    background-size: cover;
+    padding-left: 0%;
+    padding-right: 50%;
+}
+
+
+
 #rowCantemus {
-    background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, 0.151)), url("https://i1.wp.com/farm5.staticflickr.com/4161/33859103614_2373360662_b.jpg?zoom=2&ssl=1");
     background-size: cover;
 }
