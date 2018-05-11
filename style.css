@@ -39,14 +39,29 @@ div.card {
     border-color: #A31410;
 }
 
+#RejoiceButton:hover {
+    background-color: #720e0b;
+    border-color: #720e0b;
+}
+
 #ChoriXButton {
 background-color: #E0AA5A;
 border-color: #E0AA5A;
 }
 
+#ChoriXButton:hover {
+    background-color: #b38848;
+    border-color: #b38848;
+    }
+
 #CantemusButton {
     background-color: #006394;
     border-color: #006394;
+}
+
+#CantemusButton:hover {
+    background-color: #004567;
+    border-color: #004567;
 }
 
 /* Info row styles */
