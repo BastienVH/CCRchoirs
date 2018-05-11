@@ -1,4 +1,46 @@
+/* Nav styles */
+
+/* Jumbotron styles */
+
 .jumbotron {
-    background-image: url("http://via.placeholder.com/1000x400");
+    background-image: url("https://www.royalandderngate.co.uk/wp-content/uploads/2016/12/Rock-For-Hope.jpg");
     background-size: cover;
-    min-height: 500px;}
+    min-height: 600px;}
+
+.jumbotron h1 {
+    font-size: 5em;
+    font-weight: 400;
+    color: white;
+}
+
+.jumbotron p {
+    font-size: 2em;
+    font-weight: 400;
+    color: white;
+}
+
+/* Info row styles */
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    padding: 90px 90px
+    ;
+}
+
+#rowChorix {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-size: cover;
+}
+
+#rowRejoice {
+    background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-size: cover;
+}
+
+#rowCantemus {
+    background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-size: cover;
+}

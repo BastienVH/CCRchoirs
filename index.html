@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="full-height">
 
 <head>
     <!-- Required meta tags -->
@@ -16,14 +16,18 @@
 </head>
 
 <body>
+    <!-- Jumbotron with call to action -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">CCR-choirs</h1>
             <hr>
             <p class="lead">3 verschillende koren met een sterke eigenheid, maar ook een sterke band.</p>
-            <button type="button" class="btn btn-outline-primary"><a href="#koren">Ontdek de koren</a></button>
+            <button type="button" class="btn btn-outline-primary">
+                <a href="#koren">Ontdek de koren</a>
+            </button>
         </div>
     </div>
+    <!-- Info cards for each choir -->
     <div class="container">
         <div class="row" id="koren">
             <div class="col-sm">
@@ -39,41 +43,57 @@
                 </div>
             </div>
             <div class="col-sm">
-                    <div class="card">
-                        <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card Chorix img">
-                        <div class="card-body">
-                            <h5 class="card-title">Jongvolwassenenkoor Chorix</h5>
-                            <h6 class="card-title">Leeftijd: 25j-35j</h6>
-                            <p class="card-text">Repetitieplaats: Sint-Eduardus Merksem. Zeer divers programma, reikend van klassieke werken tot popsong-arrangementen.
-                                A capella, met pianobegeleiding of volledig combo.</p>
-                            <a href="http://www.chorix.be" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card Chorix img">
+                    <div class="card-body">
+                        <h5 class="card-title">Jongvolwassenenkoor Chorix</h5>
+                        <h6 class="card-title">Leeftijd: 25j-35j</h6>
+                        <p class="card-text">Repetitieplaats: Sint-Eduardus Merksem. Zeer divers programma, reikend van klassieke werken tot popsong-arrangementen.
+                            A capella, met pianobegeleiding of volledig combo.</p>
+                        <a href="http://www.chorix.be" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div class="col-sm">
-                        <div class="card">
-                            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card Cantemus img">
-                            <div class="card-body">
-                                <h5 class="card-title">Gemengd koor Cantemus</h5>
-                                <h6 class="card-title">Leeftijd: 30j-...j</h6>
-                                <p class="card-text">Repetitieplaats: Sint-Eduardus Merksem. Zeer divers programma, reikend van klassieke werken tot popsong-arrangementen.
-                                    A capella, met pianobegeleiding of volledig combo.</p>
-                                <a href="http://www.cantemusmerksem.be" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card Cantemus img">
+                    <div class="card-body">
+                        <h5 class="card-title">Gemengd koor Cantemus</h5>
+                        <h6 class="card-title">Leeftijd: 30j-...j</h6>
+                        <p class="card-text">Repetitieplaats: Sint-Eduardus Merksem. Zeer divers programma, reikend van klassieke werken tot popsong-arrangementen.
+                            A capella, met pianobegeleiding of volledig combo.</p>
+                        <a href="http://www.cantemusmerksem.be" class="btn btn-primary">Go somewhere</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Extra info row per choir -->
+    <div class="container-fluid">
+        <div class="row bg" id="rowRejoice">
+            <h2>Jeugdkoor Rejoice</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris lorem, scelerisque a orci eu, ultricies ornare nisl. Praesent tristique metus id lectus venenatis, et rhoncus tellus malesuada. Praesent fringilla venenatis ante, eu tempus mauris tristique a. Fusce velit justo, mattis semper pharetra id, dapibus id turpis. Quisque id dolor sagittis, cursus tellus a, tincidunt velit. Curabitur consequat diam at viverra dignissim. Suspendisse lobortis in lorem ac imperdiet. Sed imperdiet ipsum ligula, id malesuada sapien ornare consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales efficitur velit sed volutpat. Nunc maximus nulla tortor, in dignissim eros lobortis ut. Aenean sit amet lacus sed lorem euismod imperdiet. Fusce a commodo eros. In non mauris vestibulum, porta lorem et, vestibulum erat.</p>
+        </div>
+        <div class="row bg" id="rowChorix">
+            <h2>Jongvolwassenenkoor Chorix</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris lorem, scelerisque a orci eu, ultricies ornare nisl. Praesent tristique metus id lectus venenatis, et rhoncus tellus malesuada. Praesent fringilla venenatis ante, eu tempus mauris tristique a. Fusce velit justo, mattis semper pharetra id, dapibus id turpis. Quisque id dolor sagittis, cursus tellus a, tincidunt velit. Curabitur consequat diam at viverra dignissim. Suspendisse lobortis in lorem ac imperdiet. Sed imperdiet ipsum ligula, id malesuada sapien ornare consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales efficitur velit sed volutpat. Nunc maximus nulla tortor, in dignissim eros lobortis ut. Aenean sit amet lacus sed lorem euismod imperdiet. Fusce a commodo eros. In non mauris vestibulum, porta lorem et, vestibulum erat.</p>
+        </div>
+        <div class="row bg" id="rowCantemus">
+            <h2>Gemengd koor Cantemus</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris lorem, scelerisque a orci eu, ultricies ornare nisl. Praesent tristique metus id lectus venenatis, et rhoncus tellus malesuada. Praesent fringilla venenatis ante, eu tempus mauris tristique a. Fusce velit justo, mattis semper pharetra id, dapibus id turpis. Quisque id dolor sagittis, cursus tellus a, tincidunt velit. Curabitur consequat diam at viverra dignissim. Suspendisse lobortis in lorem ac imperdiet. Sed imperdiet ipsum ligula, id malesuada sapien ornare consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales efficitur velit sed volutpat. Nunc maximus nulla tortor, in dignissim eros lobortis ut. Aenean sit amet lacus sed lorem euismod imperdiet. Fusce a commodo eros. In non mauris vestibulum, porta lorem et, vestibulum erat.</p>
         </div>
     </div>
 
 
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-                crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="javascript.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
