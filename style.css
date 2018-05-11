@@ -24,6 +24,13 @@
     padding-bottom: 30px;
 }
 
+#koren img {
+    padding: 40px;
+}
+#koren h4 {
+    text-align: center;
+}
+
 /* Info row styles */
 
 .bg {
