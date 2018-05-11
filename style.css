@@ -23,12 +23,30 @@
 #koren {
     padding-bottom: 30px;
 }
+div.card {
+    display: block;
+}
 
 #koren img {
     padding: 40px;
 }
 #koren h5 {
     text-align: center;
+}
+
+#RejoiceButton {
+    background-color: #A31410;
+    border-color: #A31410;
+}
+
+#ChoriXButton {
+background-color: #E0AA5A;
+border-color: #E0AA5A;
+}
+
+#CantemusButton {
+    background-color: #006394;
+    border-color: #006394;
 }
 
 /* Info row styles */
