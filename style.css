@@ -34,6 +34,7 @@ div.card {
     text-align: center;
 }
 
+/* Card button styles */
 #RejoiceButton {
     background-color: #A31410;
     border-color: #A31410;
@@ -79,8 +80,6 @@ border-color: #E0AA5A;
 #rowRejoice {
     background: url("assets/img/wides/rejoice.png");
     background-size: cover;
-
- 
 }
 
 #rowChoriX {
@@ -91,8 +90,6 @@ border-color: #E0AA5A;
     text-align: left;
 }
 
-
-
 #rowCantemus {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, 0.151)), url("assets/img/wides/Cantemus.jpg");
     background-size: cover;
@@ -101,8 +98,7 @@ border-color: #E0AA5A;
 @media (max-width: 767px){
     .cardBuffer {
         margin-top: 15px;
-    }
-    
+    }   
     .bg {
         padding-left: 5%;
         text-align: left;
