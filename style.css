@@ -77,14 +77,14 @@ border-color: #E0AA5A;
 }
 
 #rowRejoice {
-    background: url("http://rejoice.be/wp-content/uploads/2017/05/Rejoice2.jpg");
+    background: url("assets/img/wides/rejoice.png");
     background-size: cover;
 
  
 }
 
 #rowChoriX {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("http://chorix.be/wp-content/uploads/2017/02/IMG_0956_2.gif");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("assets/img/wides/ChoriX.gif");
     background-size: cover;
     padding-left: 90px;
     padding-right: 50%;
@@ -94,7 +94,7 @@ border-color: #E0AA5A;
 
 
 #rowCantemus {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, 0.151)), url("https://i1.wp.com/farm5.staticflickr.com/4161/33859103614_2373360662_b.jpg?zoom=2&ssl=1");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, 0.151)), url("assets/img/wides/Cantemus.jpg");
     background-size: cover;
 }
 
