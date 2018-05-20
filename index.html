@@ -16,21 +16,35 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CCR-choirs</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- 
+example 3 - Navbar with brand left, links on center and right that collapse into the vert mobile menu
+-->
+    <nav class="navbar navbar-light bg-light navbar-expand-md justify-content-center">
+        <a href="/" class="navbar-brand d-flex w-50 mr-auto">CCR-choirs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#koren">De feiten</a>
-                <a class="nav-item nav-link" href="#rowRejoice">Rejoice</a>
-                <a class="nav-item nav-link" href="#rowChoriX">ChoriX</a>
-                <a class="nav-item nav-link" href="#rowCantemus">Cantemus</a>
-                <a class="nav-item nav-link disabled">Tickets</a>
-            </div>
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+            <ul class="navbar-nav w-100 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#koren">3 koren</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rowRejoice">Rejoice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rowChoriX">ChoriX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rowCantemus">Cantemus</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://tickets.informore.be">Tickets</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
