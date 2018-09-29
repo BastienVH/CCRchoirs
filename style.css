@@ -37,6 +37,9 @@ nav {
     font-family: 'Arvo', serif;
 }
 
+.jumbotron button>a {
+    color: white;
+}
 /* Korencards styles */
 #koren .row>div>div{
     margin-bottom: 20px;
