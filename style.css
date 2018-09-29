@@ -4,6 +4,17 @@ ul {
     white-space: nowrap;
   }
 
+nav {
+    font-size: 1.3em;
+}
+#CCRbrand {
+    font-size: 1.1em;
+}
+
+.nav-item {
+    font-weight: 400;
+}
+
 /* Jumbotron styles */
 
 .jumbotron {
