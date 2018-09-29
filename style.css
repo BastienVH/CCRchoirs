@@ -58,6 +58,7 @@ nav {
 #RejoiceButton {
     background-color: #A31410;
     border-color: #A31410;
+    margin-top: 16px;
 }
 
 #RejoiceButton:hover {
@@ -68,6 +69,8 @@ nav {
 #ChoriXButton {
 background-color: #E0AA5A;
 border-color: #E0AA5A;
+margin-top: 16px;
+
 }
 
 #ChoriXButton:hover {
