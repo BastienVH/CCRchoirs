@@ -5,6 +5,7 @@ ul {
   }
 
 nav {
+    font-family: 'Arvo', serif;
     font-size: 1.3em;
 }
 #CCRbrand {
@@ -18,20 +19,22 @@ nav {
 /* Jumbotron styles */
 
 .jumbotron {
-    background-image: url("https://www.royalandderngate.co.uk/wp-content/uploads/2016/12/Rock-For-Hope.jpg");
+    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,.2)), url("assets/img/wides/jumbotron.jpg");
     background-size: cover;
-    min-height: 600px;}
+}
 
 .jumbotron h1 {
     font-size: 5em;
     font-weight: 400;
     color: white;
+    font-family: 'Arvo', serif;
 }
 
 .jumbotron p {
     font-size: 2em;
     font-weight: 400;
     color: white;
+    font-family: 'Arvo', serif;
 }
 
 /* Korencards styles */
