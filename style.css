@@ -106,7 +106,10 @@ margin-top: 16px;
 }
 
 #rowChoriX {
-    background: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.3)), url("assets/img/wides/ChoriX.jpg");
+    background: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.3)), url("assets/img/wides/ChoriX.jpg") center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     padding-left: 90px;
     padding-right: 50%;
@@ -114,7 +117,10 @@ margin-top: 16px;
 }
 
 #rowCantemus {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("assets/img/wides/Cantemus.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("assets/img/wides/Cantemus.jpg") center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
