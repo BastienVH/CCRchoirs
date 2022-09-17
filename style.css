@@ -73,6 +73,11 @@ margin-top: 16px;
 
 }
 
+#CoconButton {
+    background-color: #c7db4f;
+    border-color: #a3b440;
+}
+
 #ChoriXButton:hover {
     background-color: #b38848;
     border-color: #b38848;
