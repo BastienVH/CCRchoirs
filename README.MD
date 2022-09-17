@@ -2,7 +2,7 @@
 
 # CCR-website
 
-Een onthaalwebsite voor 3 koren: Cantemus, Chorix en Rejoice
+Een onthaalwebsite voor 4 koren: Cocon, Rejoice, Chorix en Cantemus
 
 ________
 Gemaakt met Bootstrap 4
