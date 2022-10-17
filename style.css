@@ -21,25 +21,30 @@ nav {
 .jumbotron {
     background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,.2)), url("assets/img/wides/jumbotron.jpg");
     background-size: cover;
-}
-
-.jumbotron h1 {
-    font-size: 5em;
-    font-weight: 400;
-    color: white;
-    font-family: 'Arvo', serif;
-}
-
-.jumbotron p {
     font-size: 2em;
     font-weight: 400;
     color: white;
     font-family: 'Arvo', serif;
 }
 
+.jumbotron h1 {
+    font-size: 5em;
+}
+
 .jumbotron button>a {
     color: white;
 }
+
+.jumbotron .lead {
+    font-size: 2rem;
+}
+
+.subtext {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
 /* Korencards styles */
 #koren .row>div>div{
     margin-bottom: 20px;
