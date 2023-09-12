@@ -1,7 +1,7 @@
 /* Nav styles */
 ul {
     list-style-type: none;
-    white-space: nowrap;
+    white-space: normal;
   }
 
 nav {
